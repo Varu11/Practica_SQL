@@ -1,0 +1,1 @@
+Archivo de creación para práctica de SQL
