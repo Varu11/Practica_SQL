@@ -1,0 +1,28 @@
+sql
+CREATE TABLE keepcoding.ivr_detail (
+    calls_ivr_id STRING,
+    calls_phone_number STRING,
+    calls_ivr_result STRING,
+    calls_vdn_label STRING,
+    calls_start_date DATE,
+    calls_start_date_id STRING,
+    calls_end_date DATE,
+    calls_end_date_id STRING,
+    calls_total_duration INT,
+    calls_customer_segment STRING,
+    calls_ivr_language STRING,
+    calls_steps_module STRING,
+    calls_module_aggregation STRING,
+    module_sequence INT,
+    module_name STRING,
+    module_duration INT,
+    module_result STRING,
+    step_sequence INT,
+    step_name STRING,
+    step_result STRING,
+    step_description_error STRING,
+    document_type STRING,
+    document_identification STRING,
+    customer_phone STRING,
+    billing_account_id STRING
+);
